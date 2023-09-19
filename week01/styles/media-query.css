@@ -1,0 +1,28 @@
+header {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px;
+    padding: auto;
+    background-color: cadetblue;
+}
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid white;
+    padding: auto;
+    background-color: cadetblue;
+}
+main {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px;
+    padding: auto;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1;
+    grid-gap: 1rem;
+}
+section{
+    padding: auto;
+    background-color: white;
+}
