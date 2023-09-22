@@ -29,7 +29,8 @@
         </nav>
         <main>
             <h2>WDD 230: Web Frontend Development</h2>
-            <section class="card">
+            <section class="card" id="learning-activity">
+                <img src="" alt="">
                 <h3>Learning Activities</h3>
                 <ul>
                     <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a></li>
@@ -40,18 +41,19 @@
                     <li>Week 6:</li>
                 </ul>
             </section> 
-            <section class="card">
+            <section class="card" id="info">
                 <h3>Information</h3>
-                    <p>Weather</p>
-                    <p>Place</p>
-                    <p>15 Visits to the Page</p>
+                    <p id="weather">Weather</p>
+                    <p id="place">Place</p>
+                    <p id="visits"></p>
             </section>
         </main>
         <footer>
-            <p id="year">&copy;Alexandra Green <br> United States of America </p>
-            <p id="lastModified"></p>
+            <span id="year"></span> 
+            <p>
+                <span id="lastModified"></span>
+            </p>
         </footer>
-        <script src="scripts/index.js"></script>
         <script src="scripts/getDates.js"></script>
     </body>
 </html>

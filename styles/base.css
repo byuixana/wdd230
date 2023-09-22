@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1;
 }
 header{
     background-color: lightblue;
@@ -12,44 +14,72 @@ header{
 h1{
     font-family: 'Passion One', sans-serif;
     text-align: center;
+    color: darkgoldenrod;
+    width: 100%;
 }
 h2, h3, p{
-     font-family: 'Taviraj', sans-serif;
-     text-align: center;
-     color: darkgoldenrod;
+    padding: 0;
+    margin: 0;
+    font-family: 'Taviraj', sans-serif;
+    text-align: center;
+    color: darkgoldenrod;
 }
 nav{
+    display: flex;
     max-width: 375px;
     min-width: none;
-    border: 1px solid slategray;
+    border-bottom: 3px solid slategray;
+    border-top: 3px solid slategray;
     color: slategray;
     width: 100%;
     text-align: center;
 } 
 nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-direction: row;
+    width: 100%;
 } 
 
 nav ul li{
+    margin: 0;
+    padding: 0;
     flex: 1 1 100%;
 }
 nav a{
-    display: block;
+   
     color: slategray;
-    text-align: center;
     text-decoration: none;
-    padding: 1rem;
 }
 a:hover{
     border: 3px solid slategrey;
+    background-color: slategray;
 }
-section{
+main{
+    display: grid;
+    gap: 10px;
+}
+section ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+/* Class selectors */
+
+.card{
     background-color: lightblue;
     color: white;
     text-align: center;
 }
-footer{
-    text-align: center;
-}
+.card a{
+    text-decoration: none;
+    color: white;
+} 
+
