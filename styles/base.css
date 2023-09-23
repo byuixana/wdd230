@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 2;
+    
 }
 header{
     background-color: lightblue;
