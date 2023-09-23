@@ -38,9 +38,7 @@
     nav a:hover{
         border: 3px solid white;
     }
-    main h2{
-        
-    }
+    
     main{
         display: grid;
         grid-row: 3/4;
