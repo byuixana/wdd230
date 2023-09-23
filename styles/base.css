@@ -3,13 +3,16 @@ body{
     padding: 0;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 2;
 }
 header{
     background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+}
+
+header img{
+    width: 100%;
+    height: auto;
 }
 h1{
     font-family: 'Passion One', sans-serif;
