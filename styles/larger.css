@@ -12,10 +12,11 @@
         display: flex;
         align-items: center;
         justify-content: center; 
+        flex-direction: column;
     }
+
     header img{
-        border-radius: 10%;
-        width: 15%;
+        width: 10%;
         height: auto;
     }
     nav{

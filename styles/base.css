@@ -29,7 +29,7 @@ h2, h3, p{
 }
 nav{
     display: flex;
-    max-width: 375px;
+    /* max-width: 375px; */
     min-width: none;
     border-bottom: 3px solid slategray;
     border-top: 3px solid slategray;
