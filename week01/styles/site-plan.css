@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: #235789;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: #CDC6AE;
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
