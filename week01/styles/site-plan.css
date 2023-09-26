@@ -9,7 +9,12 @@ h1{
 .box2{
     height: 100px;
     width: 100px;
-    background-color: #CDC6AE;
+    background-color: #679289;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: #F5DEB3;
 }
 h1{
     font-family: sans-serif;
