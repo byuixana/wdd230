@@ -10,7 +10,24 @@ submitButton.addEventListener("click", () => {
     
 
     if (input.value) {
-        console.log('clicked');
+        // Create elements.
+        const li = document.createElement('li');
+        const deleteButton = document.createElement('button');
+
+        // Append input to list.
+        list.append(li);
+        li.innerHTML = `${input.value}`;
+
+        // Delet button details.
+        li.append(deleteButton);
+        deleteButton.textContent = 'X';
+        deleteButton.addEventListener('click', () =>
+        {
+            list.removeChild(li);
+            input.focus();
+            input.value = "";
+        })
+
     } else {
         input.focus()
 
