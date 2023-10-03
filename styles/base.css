@@ -6,7 +6,7 @@ body{
     
 }
 header{
-    background-color: lightblue;
+    background-color: #add8e6;
     display: block;
 }
 
@@ -17,23 +17,25 @@ header img{
 h1{
     font-family: 'Passion One', sans-serif;
     text-align: center;
-    color: darkgoldenrod;
+    color: #313D41;
     width: 100%;
+}
+main h2{
+    color: #313D41;
 }
 h2, h3, p{
     padding: 0;
     margin: 0;
     font-family: 'Taviraj', sans-serif;
     text-align: center;
-    color: darkgoldenrod;
+    color: #313D41;
 }
 nav{
     display: flex;
     /* max-width: 375px; */
     min-width: none;
-    border-bottom: 3px solid slategray;
-    border-top: 3px solid slategray;
-    color: slategray;
+    border-bottom: 3px solid #6D9CCF;
+    border-top: 3px solid #6D9CCF;
     width: 100%;
     text-align: center;
 } 
@@ -49,10 +51,11 @@ nav ul li{
     margin: 0;
     padding: 0;
     flex: 1 1 100%;
+    color: white;
 }
 nav a{
    
-    color: slategray;
+    color: #313D41;
     text-decoration: none;
 }
 a:hover{
@@ -75,14 +78,16 @@ footer{
 }
 
 /* Class selectors */
-
+.card h3{
+    color: #313D41;
+}
 .card{
     background-color: lightblue;
-    color: white;
+    color:#313D41;
     text-align: center;
 }
 .card a{
     text-decoration: none;
-    color: white;
+    color: #363636;
 } 
 
