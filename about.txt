@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Send Flowers
+- Font Author: Copyright 1998-2021 The Send Flowers Project Authors (https://github.com/googlefonts/send-flowers)
+- Font Source: http://fonts.gstatic.com/s/sendflowers/v5/If2PXTjtZS-0Xqy13uCQSULvxwjjouU1iw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

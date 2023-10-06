@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32em) {
+    nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    ul{
+        flex-direction: row;
+    }
+    #menu{
+        display: none;
+    }
+    .navigation {
+        display: flex;
+    }
+
+    nav ul li{
+        margin: 0;
+        padding: 0;
+        flex: 1 1 100%;
+        color: white;
+        list-style: none;
+    }
+    
+    .navigation ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        flex-direction: row;
+        width: 100%;
+    } 
+}

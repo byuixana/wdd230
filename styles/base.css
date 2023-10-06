@@ -8,11 +8,17 @@ body{
 header{
     background-color: #add8e6;
     display: block;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
 }
 
 header img{
     width: 100%;
     height: auto;
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: 5px;
 }
 h1{
     font-family: 'Passion One', sans-serif;
@@ -34,11 +40,35 @@ nav{
     display: flex;
     /* max-width: 375px; */
     min-width: none;
-    border-bottom: 3px solid #6D9CCF;
-    border-top: 3px solid #6D9CCF;
     width: 100%;
     text-align: center;
 } 
+
+#nav-menu{
+    font-size: 1rem;
+    border: 1px solid #6D9CCF;
+    background-color: #fff;
+    float: right;
+    position: right;
+    margin-left: 0;
+    padding: 3px 7px 9px;
+}
+#menu::before{
+    content: "☰";
+}
+#menu.open::before{
+    content:"|||"
+}
+.nav{
+    display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #fff;
+	color: #000;
+}
+.nav li{
+    display: none;
+}
 nav ul{
     padding: 0;
     margin: 0;
@@ -70,6 +100,23 @@ section ul{
     padding: 0;
     margin: 0;
     list-style-type: none;
+}
+
+.open li{
+    display: block;
+    width: 100%;
+}
+
+.open li a{
+    display: block;
+}
+
+.active::before{
+    content: "X";
+}
+
+.active{
+    border: 1px solid white;
 }
 
 footer{
