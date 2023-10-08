@@ -1,5 +1,5 @@
 body{
-    grid: 25% 5% 65% 5%;
+    grid-template-columns: 4;
     margin: 0;
     padding: 0;
 }
