@@ -11,6 +11,13 @@ header{
     display: grid;
     grid-template-columns: 20% 80%;
     justify-content: center;
+    margin: 0;
+    
+}
+
+header .call-to-action{
+    margin: 0;
+    padding: 0;
 }
 
 header img{
@@ -18,7 +25,11 @@ header img{
     height: auto;
     grid-column: 1/2;
     grid-row: 1;
-    margin: 5px;
+    padding: 0;
+}
+header #hero-img{
+    padding: 0;
+    margin: 0;
 }
 h1{
     font-family: 'Passion One', sans-serif;
@@ -38,13 +49,12 @@ h2, h3, p{
 }
 nav{
     display: flex;
-    /* max-width: 375px; */
     min-width: none;
     width: 100%;
     text-align: center;
 } 
 
-#nav-menu{
+#menu{
     font-size: 1rem;
     border: 1px solid #6D9CCF;
     background-color: #fff;
