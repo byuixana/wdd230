@@ -10,9 +10,6 @@
     #menu{
         display: none;
     }
-    .navigation {
-        display: flex;
-    }
 
     nav ul li{
         margin: 0;
