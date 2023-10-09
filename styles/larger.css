@@ -14,7 +14,7 @@
         justify-content: space-between;
     }
     header h1{
-        grid-column: 1/2;
+        position: absolute;
     }
 
     header button{
@@ -41,6 +41,7 @@
     nav{
         grid-row: 2/3;
         max-width: 100%;
+        height: 100%;
         background-color: #313D41;
         color: white;
     }
@@ -52,32 +53,26 @@
         justify-content: center;
         justify-items: center;
     }
-
-    .nav{
-        font-size: 1rem;
-        background-color: #313D41;
-        color: #fff;
-        margin: auto;
-        padding: 3px;
-    }
-    .nav li{
-        display: flex;
+    .navigation li{
+        display: block;
         justify-content: center;
        
     }
 
-    .nav{
+    .navigation{
         display: flex;
         flex-direction: row;
         list-style: none;
         background-color: #fff;
-        color: #000;
-       
+        color: white;
+        background-color:slategray;
+        font-size: 1rem;
+        padding: 3px;
     }
 
     nav ul a{
         color: lightblue;
-
+        margin: 0;
     }
     nav a:hover{
         border: 1px solid white;
@@ -93,6 +88,9 @@
         grid-template-rows: 10% 80%;
         width: 100%;
         gap: 20px;
+    }
+    main h3{
+        margin: 10%;
     }
 
     section h2{
