@@ -20,16 +20,16 @@ if (lastModified) {
 // Page Visits
 
 // Menu
-const hamButton = document.getElementById("menu");
-const navigation = document.querySelector("#nav-menu");
+const hamButton = document.querySelector("#menu");
+const navigation = document.querySelector(".navigation");
 hamButton.addEventListener('click', () => {
-   navigation.classList.toggle('open');
+   navigation.classList.toggle('navigation');
    hamButton.classList.toggle('open');
 })
 
 // Mode button
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+const modeButton = document.querySelector("#dark-mode");
+const main = document.querySelector(".main");
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) 

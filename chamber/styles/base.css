@@ -33,7 +33,6 @@ header h3{
 
 
 nav{
-    grid-row: 1/2;
     display: flex;
     flex-direction: column;
     min-width: 0;
@@ -47,7 +46,6 @@ nav{
 nav a{
     text-decoration: none;
 }
-
 
 
 h1{
@@ -135,8 +133,6 @@ nav ul{
 .open li{
     display: block;
     width: 100%;
-}
-.open li{
     list-style: none;
 }
 
