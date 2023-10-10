@@ -6,7 +6,7 @@ let FullYear = today.getFullYear();
 let yearID = document.getElementById("year");
 
 if (yearID !== null) {
-    yearID.innerHTML = `&copy; ${FullYear.toString()} | Alexandra Green`;
+    yearID.innerHTML = `${FullYear.toString()} |  &copy;Alexandra Green`;
 }
 
 // Modifies
