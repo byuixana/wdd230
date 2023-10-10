@@ -16,6 +16,7 @@
     }
     header h1{
         width: 25%;
+       
     }
 
     header button{
@@ -46,7 +47,7 @@
     nav{
         grid-row: 2/3;
         max-width: 100%;
-        height: 100%;
+        height: 20px;
         background-color: #313D41;
         color: white;
     }
@@ -57,11 +58,12 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
+        
     }
     .navigation li{
         display: block;
         justify-content: center;
-       
+        
     }
 
     .navigation{
@@ -78,9 +80,14 @@
     nav ul a{
         color: lightblue;
         margin: 0;
+        padding: 10px;
+        font-size: 15px;
     }
     nav a:hover{
-        border: 1px solid white;
+        background-color: #fff;
+        color: #235789;
+        border: none;
+        padding: 5px;
     }
     #menu{
         display: none;
