@@ -7,28 +7,33 @@
         height: 100vh;
     }
     header{
-        grid-row: 1/2;
+        /* grid-row: 1/2; */
         background-color: lightblue;
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
     header h1{
-        position: absolute;
+        width: 25%;
     }
 
     header button{
         width: 50%;
         height: auto;
         margin: 25px;
-        position: absolute;
+        /* position: absolute; */
         top: 10%;
         left: 50%;
-        transform: translate(-50%, -50%); 
+        /* transform: translate(-50%, -50%);  */
         background-color: #235789;
         border-radius: 10px;
         width: 100px;
         height: 25px;
+        margin: 0;
+    }
+    #dark-mode{
+        margin: 0;
     }
      header img{
         width: auto;
