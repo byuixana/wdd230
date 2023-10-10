@@ -13,10 +13,11 @@
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
+        height: auto;
     }
     header h1{
         width: 25%;
-       
+       margin: 0;
     }
 
     header button{
