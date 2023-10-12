@@ -1,13 +1,9 @@
 header h1{
     text-align: center;
 }
-main{
-    display: block;
-    grid-gap: 10px;
-    justify-content: center;
-}
 
 img{
+    display: block;
     width: 100%;
     height: auto;
     background-color: black;
