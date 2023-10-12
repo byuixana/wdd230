@@ -1,4 +1,4 @@
-h1{
+header h1{
     text-align: center;
 }
 main{
@@ -7,7 +7,7 @@ main{
     justify-content: center;
 }
 
-main img{
+img{
     width: 100%;
     height: auto;
     background-color: black;
