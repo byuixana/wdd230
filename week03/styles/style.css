@@ -2,7 +2,7 @@ header h1{
     text-align: center;
 }
 main{
-    display: grid;
+    display: block;
     grid-gap: 10px;
     justify-content: center;
 }
