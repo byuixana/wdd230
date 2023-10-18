@@ -38,30 +38,37 @@
         </nav>
         <main class="main">
             <h2>WDD 230: Web Frontend Development</h2>
-            <section class="card" id="learning-activity">
-                <h3>Learning Activities</h3>
-                <ul>
-                    <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a></li>
-                    <li>Week 2: <a href="week02/design.html">Design</a>, <a href="week02/bom.html">Book of Mormon</a>, <a href="https://codepen.io/Xana-Green/pen/QWzxpQy">CodePen Hamburger Menu</a></li>
-                    <li>Week 3:<a href="week03/images/landscape_optimized.webp">WebP</a>, <a href="week03/index.html">Lazy Load</a></li>
-                    <li>Week 4:</li>
-                    <li>Week 5:</li>
-                    <li>Week 6:</li>
-                </ul>
-            </section> 
-            <section class="card" id="info">
-                <h3>Information</h3>
-                    <p id="weather">Weather</p>
-                    <p id="place">Place: Ririe, Idaho, United States</p>
-                    <p id="visits"></p>
-            </section>
+            <picture>
+                <source srcset="images/IFtemple.webp" media="(max-width: 500px)" loading="lazy" width="400px" height="600px"> 
+                <source srcset="images/IFtemple-med.webp" media="(max-width:1000px)" loading="lazy" width="400px" height="600px">
+                <img src="images/IFtemple-large.webp" alt="Idaho Falls Temple" width="400px" height="600px">
+                <span id="temple-name">Idaho Falls Temple</span>
+            </picture>
+            
+                <section class="card" id="learning-activity">
+                    <h3>Learning Activities</h3>
+                    <ul>
+                        <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a></li>
+                        <li>Week 2: <a href="week02/design.html">Design</a>, <a href="week02/bom.html">Book of Mormon</a>, <a href="https://codepen.io/Xana-Green/pen/QWzxpQy">CodePen Hamburger Menu</a></li>
+                        <li>Week 3:<a href="week03/images/landscape_optimized.webp">WebP</a>, <a href="week03/index.html">Lazy Load</a></li>
+                        <li>Week 4:</li>
+                        <li>Week 5:</li>
+                        <li>Week 6:</li>
+                    </ul>
+                </section> 
+                <section class="card" id="info">
+                    <h3>Information</h3>
+                        <p id="weather">Weather</p>
+                        <p id="place">Place: Ririe, Idaho, United States</p>
+                        <p id="visits"></p>
+                </section>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23102.53873063274!2d-111.79059165961397!3d43.63116055056355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53547aa01e5a258d%3A0x85092b3ec347775b!2sRirie%2C%20ID!5e0!3m2!1sen!2sus!4v1697600873645!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ririe-map"></iframe>
         </main>
+
         <footer>
             <span id="year"></span> 
-            <p>
-                <span id="lastModified"></span>
-            </p>
-            <p>United States of America</p>
+            <span id="lastModified"></span>
+            <span>United States of America</span>
         </footer>
         <script src="scripts/getDates.js"></script>
     </body>
