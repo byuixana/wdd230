@@ -132,7 +132,7 @@ nav li{
     border: 1px solid white;
 }
 main{
-    
+    display: grid;
     gap: 10px;
     margin: 10px;
 }
@@ -197,3 +197,15 @@ footer{
     height: 100%;
 }
 
+/* Sidebar */
+.sidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6D9CCF;
+    padding-top: 10px;
+
+}

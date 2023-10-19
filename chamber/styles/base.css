@@ -5,10 +5,10 @@ body{
 }
 
 h1, h3{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
 }
 p{
-    font-family: Garamond;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
