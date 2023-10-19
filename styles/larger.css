@@ -1,7 +1,5 @@
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 32em) {
     body{
-        /* display: grid;
-        grid-template-rows: 30% 5% 60% 5%; */
         display: block;
         margin: 0;
         padding: 0;
@@ -119,11 +117,11 @@
         max-width: 100%;
         max-height: 100%;
     }
-    picture #temple-name{
+  #temple-name{
         position: absolute;
         top: 80%;
         left: 20%;
-        transform: translate(-50%, -50%);
+        transform: translate(-75%, -75%);
         color: white;
         background-color: #235789;
         text-align: center;
@@ -146,11 +144,13 @@
         text-align: center;
         margin-left: 10px;
         grid-column: 1/2;
+        grid-row: 3/4;
     }
     #info{
        
        text-align: center;
        grid-column: 2/3;
+       grid-row: 3/4;
     }
 
     .card{
@@ -163,6 +163,14 @@
        margin: 15px;
        text-align: center;
     }
+
+    #ririe-map{
+        grid-column: 1/3;
+        margin:3%;
+        width: 100%;
+        height: auto;
+    }
+    
    
 }
 
