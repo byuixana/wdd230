@@ -135,7 +135,11 @@ nav ul{
     height: auto;
     padding: 10px;
 }
-
+#picture-column img:hover{
+    box-shadow: 0 0 50px #2d70af;
+    padding: 15px;
+    
+}
 /* Button */
 
 .navigation{
