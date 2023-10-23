@@ -98,6 +98,21 @@ nav ul{
     flex-direction: column;
 }
 
+/* .row1{
+    display: flex;
+    flex-direction: column;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+
+.row3{
+    display: flex;
+    flex-direction: column;
+} */
+
 .sidebar section{
     display: block;
     grid-column: 1/2;
@@ -124,22 +139,36 @@ nav ul{
 /* Picture column */
 
 #picture-column{
-    grid-column: 2/3;
-    grid-row: 1/3;
+    /* display: grid; */
+    /* grid-column: 2/3;
+    grid-row: 1/3; */
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 1005;
+    width: 100%;
+    height: 50%;
+    padding-top: 0;
+    justify-self: center;
 }
 #picture-column img{
-    width: 100%;
+    width: 42.5%;
     height: auto;
     padding: 10px;
+    padding-top: 0;
 }
 #picture-column img:hover{
     box-shadow: 0 0 50px #2d70af;
     padding: 15px;
     
 }
+
+.discover-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 /* Button */
 
 .navigation{
@@ -228,7 +257,7 @@ nav ul{
 
 #join-discover{
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%); 
         background-color: #235789;
