@@ -1,0 +1,23 @@
+:root{
+    --bord: solid black 1px;
+}
+
+table, th, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    text-align:center;
+    color: white;
+}
+
+caption, thead:first-child {
+    background-color: teal;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gray; 
+}
+

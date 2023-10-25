@@ -166,7 +166,6 @@ nav ul{
 .discover-main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* Button */
