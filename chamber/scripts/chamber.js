@@ -15,17 +15,6 @@ if (lastModified) {
 
 // Visit # 
 
-// const visitsDisplay = document.querySelector("#visits");
-
-
-
-
-// if (userVisitNum == 0)
-// {
-//     console.log("Hello!")
-//     
-// }
-
 const visitsDisplay = document.querySelector("#visits");
 let userVisitNum = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 let visitDays = Number(window.localStorage.getItem("timeBetween"));
@@ -45,3 +34,16 @@ if (numVisits == 0) {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+// Timestamp
+const submitBtn = document.querySelector("#submitJoinBtn");
+const timestamp = document.querySelector("#timestamp");
+let submissionDate = Date.Date.Now();
+
+submitBtn.addEventListener('onclick', submissionDate);
+
+function setTime(){
+    timestamp.innerHTML = submissionDate;
+    console.log(submissionDate);
+}
+

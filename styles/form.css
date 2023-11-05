@@ -1,0 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form fieldset{
+    border: 2px solid cadetblue;
+    margin: 2em 0;
+    padding: .5em 2%;
+}
+
+form legend{
+    color: lightblue;
+    margin: 0 2em;
+    padding: 0 .5em;
+}
+
+form label{
+    display: block;
+    margin-top: 1em;
+    padding: 4px;
+}
+form input{
+    display:block;
+    height: 44px;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color:rgba(0, 0, .1, .1);
+}
+
+input:required{
+    border: 3px solid red;
+}
+
+form input:required:valid{
+    border: 3px solid green;
+}
+
+html{
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+
+#rangevalues{
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 300px;
+}
+
+#rangevalues option{
+    flex: 1 1 auto;
+}
+

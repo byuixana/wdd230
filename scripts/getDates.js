@@ -34,10 +34,10 @@ const main = document.querySelector(".main");
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) 
     {
-    console.log("Stuff")
-    main.style.background = "#000";
-    main.style.color = "#fff";
-    modeButton.textContent = "X"
+        console.log("Stuff")
+        main.style.background = "#000";
+        main.style.color = "#fff";
+        modeButton.textContent = "X"
     } else {
         main.style.background = "#eee";
         main.style.color = "000";
@@ -58,4 +58,5 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
 
