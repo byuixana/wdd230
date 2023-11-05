@@ -281,6 +281,9 @@ form input:required{
 form input:required:valid{
     border-color: 3px solid #235789;
 }
+form label{
+    font-size: 16px;
+}
 
 section{
     height: 30%;
@@ -302,12 +305,12 @@ input[type="radio"]{
 }
 #radio-buttons{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: right;
 }
 
 #radio-buttons label{
-    margin: 0;
+    margin: 5px;
     text-align: right;
 }
 #radio-buttons input{
@@ -321,4 +324,8 @@ button{
     width: 100px;
     height: 35px;
     color: white;
+}
+#join-main .membership section{
+    display: flex;
+    flex-direction: column;
 }

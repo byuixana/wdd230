@@ -140,3 +140,11 @@ label{
     flex-direction: column;
     margin: 5%;
  }
+.membership section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.membership ul{
+    list-style: none;
+}
