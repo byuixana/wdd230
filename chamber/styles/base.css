@@ -296,19 +296,23 @@ fieldset{
     flex-direction: column;
 }
 
-label{
-   display: inline-block;
-}
-
 input[type="radio"]{
-    margin: 0;
-    padding: 0;
     height: 22px;
+    margin-left: none;
 }
-
-span{
+#radio-buttons{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+#radio-buttons label{
+    margin: 0;
+    text-align: right;
+}
+#radio-buttons input{
+    margin: 0;
+
 }
 
 button{
