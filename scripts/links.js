@@ -18,3 +18,5 @@ async function apiFetch()
     console.log(error)
 }
 }
+
+apiFetch();
