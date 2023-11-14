@@ -31,7 +31,7 @@
     <body>
         <main class="join-main">
             <form method="get" action="thankyou.html">
-                <h3>Membership Form</h3>
+                <h1>Membership Form</h1>
                 <fieldset>
                     <label>First Name<input type="text" name="name" id="first-name" required></label>
                     <label>Last Name <input type="text" id="last-name" required></label>
@@ -41,7 +41,7 @@
                     <label>Business/Organization Name: <input type="text" required></label>
                 </fieldset>
                
-                    <label>Membership Level:</label>
+                    <label id="membership-level">Membership Level:</label>
                     <fieldset id="radio-buttons">
                         <label id="gold">
                         <input type="radio" name="group">
@@ -62,43 +62,44 @@
                     
                 </fieldset>
                     
-                <fieldset>
+                <fieldset id="button-field">
                     <input type="hidden" name="time" id="timestamp">
                     
                     <button id="submitJoinBtn">Join</button>
                 </fieldset>
+                <div class="membership">
+                    <section class="gold-member">
+                        <h3>Gold Member</h3>
+                        <ul>
+                            <li>$500 a year</li>
+                            <li>Advertising at all community events</li>
+                            <li>Event discounts for all employees</li>
+                            <li>Spotlight on the home page</li>
+                            <li>Free entry to networking events</li>
+                        </ul>
+                    </section>
+                    <section class="silver-member">
+                        <h3>Silver Member</h3>
+                        <ul>
+                            <li>$350 a year</li>
+                            <li>Advertising at half of community events</li>
+                            <li>Event discounts for employees to certain community events</li>
+                            <li>Spotlight on the home page</li>
+                            <li>Half-priced entry to netwokring events</li>
+                        </ul>
+                    </section>
+                    <section class="broze-member">
+                        <h3>Broze Member</h3>
+                        <ul>
+                            <li>$150 a year</li>
+                            <li>Advertising at two community events</li>
+                            <li>Event discounts for employees to 3 community events</li>
+                            <li>Spotlight on the home page</li>
+                            <li>Free entry to one netwoorking event</li>
+                        </ul>
+                    </section>
             </form> 
-            <div class="membership">
-                <section class="gold-member">
-                    <h3>Gold Member</h3>
-                    <ul>
-                        <li>$500 a year</li>
-                        <li>Advertising at all community events</li>
-                        <li>Event discounts for all employees</li>
-                        <li>Spotlight on the home page</li>
-                        <li>Free entry to networking events</li>
-                    </ul>
-                </section>
-                <section class="silver-member">
-                    <h3>Silver Member</h3>
-                    <ul>
-                        <li>$350 a year</li>
-                        <li>Advertising at half of community events</li>
-                        <li>Event discounts for employees to certain community events</li>
-                        <li>Spotlight on the home page</li>
-                        <li>Half-priced entry to netwokring events</li>
-                    </ul>
-                </section>
-                <section class="broze-member">
-                    <h3>Broze Member</h3>
-                    <ul>
-                        <li>$150 a year</li>
-                        <li>Advertising at two community events</li>
-                        <li>Event discounts for employees to 3 community events</li>
-                        <li>Spotlight on the home page</li>
-                        <li>Free entry to one netwoorking event</li>
-                    </ul>
-                </section>
+           
             </div>
         </main>
     </body>

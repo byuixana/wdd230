@@ -1,0 +1,28 @@
+{
+    "familyName": "Heywood",
+    "moveInDate": "07/22/2023",
+    "bishopricVisited": false,
+    "familyMembers":
+    [
+        {
+            "name": "Walker Michael Heywood",
+            "gender": "Male",
+            "birthDate": "1990-12-90"
+        },
+        {
+            "name": "Eliza Marie Howard Heywood",
+            "gender": "Female",
+            "birthDate": "1992-04-03"
+        }, 
+        {
+            "name": "Michael Walker Heywood",
+            "gender": "Male",
+            "birthDate": "2015-11-01"
+        },
+        {
+            "name": "Emmaline May Heywood",
+            "gender": "Female",
+            "birthDate": "2017-11-03"
+        }
+    ]
+}

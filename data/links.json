@@ -1,0 +1,83 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": 
+            [
+                {
+                "url": "week01/holygrail.html",
+                "title": "Holy Grail Activity"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query Activity"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query Activity"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": 
+            [
+                {
+                "url": "week02/bom.html",
+                "title": "Book of Mormon Scriptures"
+                },
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": 
+            [
+                {
+                "url": "week03/index.html",
+                "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/storage.html",
+                    "title": "Storage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": 
+            [
+                {
+                "url": "week04/form-start/index.html",
+                "title": "Form"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": 
+            [
+                {
+                "url": "week04/form-start/index.html",
+                "title": "Form"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build"
+                }
+            ]
+        }
+    ]
+    
+}
