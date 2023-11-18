@@ -4,7 +4,7 @@ const linksURL = `http://127.0.0.1:5500/data/links.json`
 
 let card = document.querySelector('#learning-activity')
 
-async function apiFetch()
+async function Fetch()
 {
     try{
     const response = await fetch(linksURL);
@@ -21,20 +21,22 @@ async function apiFetch()
     console.log(error)
 }
 }
-
+Fetch();
 function displayLinks(data)
 {
+    let list = document.createElement('ul');
     data.weeks.forEach(week => {
         let link = document.createElement('a');
-        link.setAttribute('src', week.url)
-        link.innerHTML = `${link.title}`
-        let p = document.createElement('p');
-        p.innerHTML = `${link}`
-        card.appendChild(p)
+        link.setAttribute('src', week.url);
+        link.textContent = `${week.title}`;
+        let li = document.createElement('li');
+        li.textContent = `${week || link}`;
+        list.appendChild(li);
     });
+    card.appendChild('list')
 }
 
-apiFetch();
+
 
 // Weather
 
