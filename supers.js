@@ -7,8 +7,7 @@ async function getProphetData(){
         const data = await response.json();
         // console.table(data.prophets)
         console.log(data.members[2].powers[1])
-    }
-    
+    }  
 }
 
 getProphetData()

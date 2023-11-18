@@ -1,0 +1,95 @@
+{
+    "members": [
+        {
+            "name": "Heise Hot Springs",
+            "address":{
+                    "street": "5116 E Heise Rd",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83443"
+                },
+            "phone": "208-253-0011",
+            "urls": "https://www.heisehotsprings.net/",
+            "img": "https://www.heisehotsprings.net/images/heise-logo-white.png",
+            "membership": "gold"
+        },
+        {
+            "name": "Business name",
+            "address":{
+                    "street": "Los Albertos",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-055",
+            "urls": "None available",
+            "img": "",
+            "membership": "silver"
+        },
+        {
+            "name": "Ririe Reservoir",
+            "address":{
+                    "street": "Fakename",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-0011",
+            "urls": "www.fakewebaddress.com",
+            "img": "",
+            "membership": "gold"
+        },
+        {
+            "name": "Business name",
+            "address":{
+                    "street": "Fakename",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-0011",
+            "urls": "www.fakewebaddress.com",
+            "img": "",
+            "membership": "gold"
+        },
+        {
+            "name": "Business name",
+            "address":{
+                    "street": "Fakename",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-0011",
+            "urls": "www.fakewebaddress.com",
+            "img": "",
+            "membership": "gold"
+        },
+        {
+            "name": "Business name",
+            "address":{
+                    "street": "Fakename",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-0011",
+            "urls": "www.fakewebaddress.com",
+            "img": "",
+            "membership": "gold"
+        },
+        {
+            "name": "Business name",
+            "address":{
+                    "street": "Fakename",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83442"
+                },
+            "phone": "208-253-0011",
+            "urls": "www.fakewebaddress.com",
+            "img": "",
+            "membership": "gold"
+        }
+    ]
+}
