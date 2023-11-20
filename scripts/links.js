@@ -28,29 +28,45 @@ function displayLinks(data)
     list.innerHTML="";
     data.weeks.forEach(week => {
         let links = week.links;
-        let weekNumber = week.week;
+        let weekNumber = week.weekNumber;
+        // console.log(links)
+        let li = document.createElement('li');
+
+        li.textContent = `${weekNumber}:`
+        links.forEach(link => {
+  
+            let url = link.url;
+            let title = link.title;
+            let anchor = document.createElement('a');
+            anchor.setAttribute('src', url);
+            anchor.textContent = `${title } || `;
+            li.appendChild(anchor);
+
+        })
+        list.appendChild(li);
         
         // Use the link length and a for loop to iterate through each objects.
-        links.forEach(link => {
-            let li = document.createElement('li');
-            for (let i = 0; i<link.length; I++)
-            {
-                let url = link[i].url;
-                let title = link[i].title;
-                let anchor = document.createElement('a');
-                anchor.setAttribute('src', url)
-                anchor.innerHTML = `${title}`
-                li.appendChild(anchor)
-            }
-            list.appendChild(li);
-            card.appendChild(list)
+        // links.forEach(link => {
+        //     let li = document.createElement('li');
+        //     for (let i = 0; i<link.length; i++)
+        //     {
+        //         // Accesses teh different links through the object
+        //         // let url = link[i].url;
+        //         // let title = link[i].title;
+        //         // let anchor = document.createElement('a');
+        //         // anchor.setAttribute('src', url)
+        //         // anchor.setAttribute = `${'alt', title}`
+        //         // li.appendChild(anchor)
+        //     }
+        //     list.appendChild(li);
+        //     card.appendChild(list);
 
             // link.forEach(object => {
                 
             //     
             // }
             // link.textContent = `${week.link.title}`;
-        })
+    //     })
         
     })
 

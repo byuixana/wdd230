@@ -1,7 +1,7 @@
 {
     "weeks": [
         {
-            "week": "Week 1",
+            "weekNumber": "Week 1",
             "links": 
             [
                 {
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "week": "Week 2",
+            "weekNumber": "Week 2",
             "links": 
             [
                 {
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "week": "Week 3",
+            "weekNumber": "Week 3",
             "links": 
             [
                 {
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "week": "Week 4",
+            "weekNumber": "Week 4",
             "links": 
             [
                 {
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "week": "Week 5",
+            "weekNumber": "Week 5",
             "links": 
             [
                 {

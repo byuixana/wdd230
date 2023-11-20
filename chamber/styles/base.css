@@ -386,6 +386,10 @@ button{
     grid-row: 2/3;
 }
 
+.directory .list{
+    color: #235789;
+}
+
 .directory section img {
     width: auto;
     max-width: 300px;
@@ -409,6 +413,7 @@ button{
 
 #directory-body{
     overflow-x: hidden;
+    color: #235789;
 }
 
 #directory-footer{

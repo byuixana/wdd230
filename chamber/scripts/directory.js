@@ -13,14 +13,14 @@ async function getMembers()
     listButton.addEventListener('click', () => {
         
         main.innerHTML = "";
-        const list = document.createElement('ul');
-        list.classList.add('list');
-        main.appendChild(list);
+        const table = document.createElement('table');
+        table.classList.add('table');
+        main.appendChild(table);
         
         result.members.forEach(member => {
-            const li = document.createElement('li');
-            li.textContent = `${member.name} || ${member.phone} || ${member.address.street}`
-            list.appendChild(li)
+            const tr = document.createElement('tr');
+            tr.textContent = `${member.name} || ${member.phone} || ${member.address.street}`
+            table.appendChild(tr)
         })
     })
 }
