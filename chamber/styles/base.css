@@ -3,7 +3,7 @@ body{
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
-    color: #fff;
+    
 }
 
 h1, h3{
@@ -260,6 +260,10 @@ nav ul{
 #discover-main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+
+#discover-main{
+    color:#fff;;
 }
 
 /* Join Page */
