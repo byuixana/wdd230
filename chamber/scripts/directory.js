@@ -1,21 +1,35 @@
-const main = document.querySelector('main')
+const main = document.querySelector('.directory')
 const gridButton = document.querySelector('#grid');
-const listButton = document.querySelector('#list');
+const listButton = document.getElementById('list');
 
 
 async function getMembers()
 {
     const response = await fetch('data/members.json');
     const result = await response.json();
-    gridButton.addEventListener('click', displayBusinessesGrid(result.members));
+    console.log(result)
+    gridButton.addEventListener('click',() => displayBusinessesGrid(result.members));
+
     listButton.addEventListener('click', () => {
-    const list = createElement('list');
-    list.classList.add('list');
-    main.appendChild(list);
- })
+        
+        main.innerHTML = "";
+        const list = document.createElement('ul');
+        list.classList.add('list');
+        main.appendChild(list);
+        
+        result.members.forEach(member => {
+            const li = document.createElement('li');
+            li.textContent = `${member.name} || ${member.phone} || ${member.address.street}`
+            list.appendChild(li)
+        })
+    })
 }
 
+
+
+
 function displayBusinessesGrid(members){
+    main.innerHTML = "";
     const cards = document.createElement('article');
     cards.classList.add('cards');
     main.appendChild(cards);

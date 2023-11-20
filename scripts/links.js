@@ -24,16 +24,36 @@ async function Fetch()
 Fetch();
 function displayLinks(data)
 {
-    let list = document.createElement('ul');
+    let list = document.querySelector("#list")
+    list.innerHTML="";
     data.weeks.forEach(week => {
-        let link = document.createElement('a');
-        link.setAttribute('src', week.url);
-        link.textContent = `${week.title}`;
-        let li = document.createElement('li');
-        li.textContent = `${week || link}`;
-        list.appendChild(li);
-    });
-    card.appendChild('list')
+        let links = week.links;
+        let weekNumber = week.week;
+        
+        // Use the link length and a for loop to iterate through each objects.
+        links.forEach(link => {
+            let li = document.createElement('li');
+            for (let i = 0; i<link.length; I++)
+            {
+                let url = link[i].url;
+                let title = link[i].title;
+                let anchor = document.createElement('a');
+                anchor.setAttribute('src', url)
+                anchor.innerHTML = `${title}`
+                li.appendChild(anchor)
+            }
+            list.appendChild(li);
+            card.appendChild(list)
+
+            // link.forEach(object => {
+                
+            //     
+            // }
+            // link.textContent = `${week.link.title}`;
+        })
+        
+    })
+
 }
 
 

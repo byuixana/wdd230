@@ -3,6 +3,7 @@ body{
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+    color: #fff;
 }
 
 h1, h3{
@@ -95,6 +96,8 @@ nav ul{
 .sidebar{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    grid-column: 1/3;
 }
 
 .sidebar section{
@@ -113,38 +116,36 @@ nav ul{
     margin: 0;
 }
 .sidebar li{
-    margin: none;
+    margin: 0;
     padding: 10px;
 }
-.sidebar section h3{
+.sidebar section h3, li, p{
     color: #fff;
 
 }
 /* Picture column */
 
-#picture-column{
+.picture-column{
     /* display: grid; */
-    /* grid-column: 2/3;
-    grid-row: 1/3; */
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    width: 50px;
     height: 50%;
     padding-top: 0;
     justify-self: center;
 }
-#picture-column img{
-    width: 42.5%;
+.picture-column img{
+    width: 45%;
     height: auto;
     padding: 10px;
     padding-top: 0;
 }
-#picture-column img:hover{
+.picture-column img:hover{
     box-shadow: 0 0 50px #2d70af;
-    padding: 15px;
-    
+    padding: 5px;
+    background-color: #506f8d;
 }
 
 .discover-main{
@@ -225,6 +226,9 @@ nav ul{
 }
 
 /* Join button */
+.navigation li{
+    width: 100%;
+}
 #join{
     position: absolute;
     top: 35%;
@@ -238,6 +242,8 @@ nav ul{
     color: white;
 }
 
+/* Discover page */
+
 #join-discover{
         position: absolute;
         top: 35%;
@@ -250,6 +256,11 @@ nav ul{
         font-size: 20px;
         color: white;
 } 
+
+#discover-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
 
 /* Join Page */
 form{
@@ -301,7 +312,7 @@ fieldset{
 
 input[type="radio"]{
     height: 22px;
-    margin-left: none;
+    margin-left: 0;
 }
 #radio-buttons{
     display: flex;
@@ -344,30 +355,34 @@ button{
 /* Directory */
 
 .cards{
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
     align-items: center;
+    width: 100%;
 }
 
 /* .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 } */
-
-.directory-main{
+.main-directory{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.directory{
     max-width: 100%;
     align-items: center;
     margin: 0 auto;
     max-height: 100%;
 }
 
-.directory-main header, footer{
+.directory header, footer{
     grid-column: 1/3;
     grid-row: 2/3;
 }
 
-.directory-main section img {
+.directory section img {
     width: auto;
     max-width: 300px;
     box-shadow: 0 0 30px #000;

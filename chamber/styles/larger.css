@@ -45,7 +45,7 @@
         background-color: #2d72b2;
     }
     header img{
-        width: 8=100%;
+        width: 100%;
         height: 50%;
         padding: 0;
         margin: 0;
@@ -65,7 +65,7 @@
 
     /* Sidebar */
 .sidebar{
-   
+    /* display: flex; */
     color: white;
 }
 
@@ -86,17 +86,32 @@
 
 /* Picture column */
 
-#picture-column{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/3;
+.discover-main{
+    display: flex;
 }
-#picture-column img{
-    width: 60%;
+
+.picture-column{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
+        width: 100%;
+        height: 50%;
+        padding-top: 0;
+        justify-self: center;
+        background-color: #F5DEB3;
+    }
+}
+.picture-column img{
+    width: 100%;
     height: auto;
     padding: 10px;
 }
 /* Join Page */
+
+.navigation{
+    width: 100%;
+}
 
 form{
     display: grid;
@@ -152,12 +167,21 @@ label{
 }
 
 /* Directory */
+.main-directory{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#directory-nav li{
+    width: 100%;
+}
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
     align-items: center;
     max-width: 100%;
+    margin: 0;
 }
 
 .grid img {
@@ -165,25 +189,28 @@ label{
 	box-shadow: 0 0 10px #333;
 }
 
-.directory-main{
+.directory{
     max-width: 100%;
     align-items: center;
     margin: 0 auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.directory-main img{
+.directory img{
     width: auto;
     max-width: 300px;
     box-shadow: 0 0 30px #000;
     height: 250px;
     
 }
-.directory-main button{
+.main-directory button{
     width: 100%;
 }
 
-.directory-main section{
+.directory section{
+    font-size: 12px;
     background-color: #235789; 
     color: aliceblue;
     display: flex;
@@ -195,10 +222,10 @@ label{
 
 #directory-footer{
     width: 100%;
-    margin: 0%;
+    margin-top: 10%;
+    
+}
 
-}
-}
 
 /* .row1{
     display: flex;

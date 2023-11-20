@@ -14,81 +14,95 @@
             "membership": "gold"
         },
         {
-            "name": "Business name",
+            "name": "Los Albertos Mexican Food",
             "address":{
-                    "street": "Los Albertos",
+                    "street": "315 W Ririe Hwy, Ririe, ID 83443",
                     "city": "Ririe",
                     "state": "ID",
                     "zip": "83442"
                 },
             "phone": "208-253-055",
-            "urls": "None available",
-            "img": "",
+            "urls": "https://www.bing.com/maps?osid=33d083b5-ac75-4386-a984-be97791d7ba8&cp=43.626306~-111.780739&lvl=17&pi=0&imgid=b879864b-5afc-4853-8c66-2125e2f39c6b&v=2&sV=2&form=S00027",
+            "img": "https://th.bing.com/th/id/OIP.UyVntR9uTvS5GZB9YQHCYQHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "membership": "silver"
+
+        },
+        {
+            "name": "Ririe Grain & Feed Co-Op",
+            "address":{
+                    "street": "400 Market Str",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83443"
+                },
+            "phone": "(208) 538-6712",
+            "urls": "http://ririechamber.com/business.php?id=77",
+            "img": "http://www.ririechamber.com/use_images/logos/whitelogowithlettering.jpg",
+            "membership": "gold"
+        },
+        {
+            "name": "Bank of Commerce",
+            "address":{
+                    "street": "386 Main Street",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83443"
+                },
+            "phone": "208-538-5566",
+            "urls": "www.fakewebaddress.com",
+            "img": "http://ririechamber.com/business.php?id=3",
+            "membership": "gold"
+        },
+        {
+            "name": "Lovebird Green Grocer & Art Co.",
+            "address":{
+                    "street": "317 Main St, Ririe, Id 83443 ",
+                    "city": "Ririe",
+                    "state": "ID",
+                    "zip": "83443"
+                },
+            "phone": "208-872-4534",
+            "urls": "https://www.facebook.com/Lovebirdririe/",
+            "img": "https://www.facebook.com/photo/?fbid=446374517515106&set=a.446374477515110&__tn__=%3C",
             "membership": "silver"
         },
         {
-            "name": "Ririe Reservoir",
+            "name": "Gateway Service, Inc",
             "address":{
-                    "street": "Fakename",
+                    "street": "365 West Ririe Highway",
                     "city": "Ririe",
                     "state": "ID",
-                    "zip": "83442"
+                    "zip": "83443"
                 },
-            "phone": "208-253-0011",
-            "urls": "www.fakewebaddress.com",
-            "img": "",
+            "phone": "208-538-7771",
+            "urls": "http://www.facebook.com/gatewaychevron/",
+            "img": "http://www.ririechamber.com/use_images/logos/chevron.jpg",
             "membership": "gold"
         },
         {
-            "name": "Business name",
+            "name": "Avercast, LLC",
             "address":{
-                    "street": "Fakename",
+                    "street": "135 E. Main",
                     "city": "Ririe",
                     "state": "ID",
-                    "zip": "83442"
+                    "zip": "83443"
                 },
             "phone": "208-253-0011",
-            "urls": "www.fakewebaddress.com",
-            "img": "",
+            "urls": "http://www.avercast.com/",
+            "img": "http://www.ririechamber.com/use_images/logos/2010-05-25-AvercastLogo.jpg",
             "membership": "gold"
         },
         {
-            "name": "Business name",
+            "name": "Mold Pro of Idaho, Inc",
             "address":{
-                    "street": "Fakename",
+                    "street": "77 North 5050 East",
                     "city": "Ririe",
                     "state": "ID",
-                    "zip": "83442"
+                    "zip": "83443"
                 },
-            "phone": "208-253-0011",
-            "urls": "www.fakewebaddress.com",
-            "img": "",
-            "membership": "gold"
-        },
-        {
-            "name": "Business name",
-            "address":{
-                    "street": "Fakename",
-                    "city": "Ririe",
-                    "state": "ID",
-                    "zip": "83442"
-                },
-            "phone": "208-253-0011",
-            "urls": "www.fakewebaddress.com",
-            "img": "",
-            "membership": "gold"
-        },
-        {
-            "name": "Business name",
-            "address":{
-                    "street": "Fakename",
-                    "city": "Ririe",
-                    "state": "ID",
-                    "zip": "83442"
-                },
-            "phone": "208-253-0011",
-            "urls": "www.fakewebaddress.com",
-            "img": "",
+            "phone": "208-589-5774",
+            "urls": "http://www.idahomoldpro.com/",
+            "img": "http://www.ririechamber.com/use_images/logos/moldpro_logo.jpg",
             "membership": "gold"
         }
     ]
