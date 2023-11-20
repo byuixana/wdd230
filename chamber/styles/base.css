@@ -130,14 +130,13 @@ nav ul{
     grid-column: 2/3;
     grid-row: 2/3; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    width: 50px;
+    grid-template-columns: 1fr 1fr;
     height: 50%;
     padding-top: 0;
     justify-self: center;
 }
 .picture-column img{
-    width: 45%;
+    width: 100%;
     height: auto;
     padding: 10px;
     padding-top: 0;
@@ -145,7 +144,7 @@ nav ul{
 .picture-column img:hover{
     box-shadow: 0 0 50px #2d70af;
     padding: 5px;
-    background-color: #506f8d;
+    background-color: aliceblue;
 }
 
 .discover-main{
@@ -264,6 +263,10 @@ nav ul{
 
 #discover-main{
     color:#fff;;
+}
+
+#discover-footer{
+    color: #fff;
 }
 
 /* Join Page */

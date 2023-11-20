@@ -38,7 +38,7 @@ function displayLinks(data)
             let url = link.url;
             let title = link.title;
             let anchor = document.createElement('a');
-            anchor.setAttribute('src', url);
+            anchor.setAttribute('href', url);
             anchor.textContent = `${title } || `;
             li.appendChild(anchor);
 

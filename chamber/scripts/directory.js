@@ -37,7 +37,7 @@ function displayBusinessesGrid(members){
         const card = document.createElement('section');
         const businessName = document.createElement('h2');
         const logo = document.createElement('img');
-        logo.setAttribute('src', business.url);
+        logo.setAttribute('src', business.img);
         logo.setAttribute('alt', `${business.name}`);
         logo.setAttribute('loading', "lazy");
         logo.setAttribute('width', '340');
