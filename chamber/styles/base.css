@@ -96,6 +96,18 @@ nav ul{
     text-align: left;
 }
 
+/* Banner */
+.banner{
+    background-color: #F5DEB3;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+}
+.x{
+    width: auto;
+    margin: 2px;
+}
 /* Sidebar */
 .sidebar{
     display: flex;

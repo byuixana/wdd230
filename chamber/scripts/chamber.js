@@ -47,6 +47,11 @@ function setTime(){
     console.log(submissionDate);
 }
 
-// Form Thank You
-
+// Banner
+const button = document.querySelector(".x");
+const banner = document.querySelector(".banner")
+button.addEventListener('onclick', () => {
+    console.log('Working');
+    banner.textContent="";
+})
 
