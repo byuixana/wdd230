@@ -119,7 +119,7 @@ nav ul{
     margin: 0;
     padding: 10px;
 }
-.sidebar section h3, li, p{
+.sidebar{
     color: #fff;
 
 }
