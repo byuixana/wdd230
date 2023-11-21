@@ -55,12 +55,20 @@
             "links": 
             [
                 {
-                "url": "week04/form-start/index.html",
-                "title": "Form"
+                "url": "https://codepen.io/Xana-Green/details/zYexePq",
+                "title": "Pseudo-classes"
                 },
                 {
                     "url": "week04/tablebuild.html",
                     "title": "Table Build"
+                },
+                {
+                    "url": "week04/images/Combinators.png",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/form-start/index.html",
+                    "title": "Form"
                 }
             ]
         },
@@ -69,12 +77,20 @@
             "links": 
             [
                 {
-                "url": "week04/form-start/index.html",
-                "title": "Form"
+                "url": "https://codepen.io/Alexandra-Green/pen/dyaWzqY",
+                "title": "Pseudo-elements"
                 },
                 {
-                    "url": "week04/tablebuild.html",
-                    "title": "Table Build"
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
                 }
             ]
         }

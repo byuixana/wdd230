@@ -246,8 +246,8 @@ header h1
     margin: 0;
     position:absolute;
     top: 20%;
-    left: 50%;
-    transform: translate(-45%, -50%); 
+    left: 25%;
+    transform: translate(-50%, -50%); 
 }
 
 /* Join button */
@@ -256,7 +256,7 @@ header h1
 }
 #join{
     position: absolute;
-    /* top: 35%; */
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%); 
     background-color: #235789;
