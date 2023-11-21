@@ -96,6 +96,12 @@ nav ul{
     text-align: left;
 }
 
+header h1
+{
+    padding: 10px;
+    margin: 0;
+}
+
 /* Banner */
 .banner{
     background-color: #F5DEB3;
