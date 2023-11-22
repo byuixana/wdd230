@@ -244,10 +244,20 @@ header h1
 /* Call to action */
 .call-to-action{
     margin: 0;
-    position:absolute;
-    top: 20%;
-    left: 25%;
+    position: relative;
+    align-items: center;
+}
+.call-to-action h2{
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+#hero-img{
+    width: 100%;
 }
 
 /* Join button */
@@ -256,7 +266,7 @@ header h1
 }
 #join{
     position: absolute;
-    top: 35%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%); 
     background-color: #235789;
