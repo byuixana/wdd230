@@ -250,7 +250,7 @@ header h1
 .call-to-action h2{
     margin: 10px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%); 
     text-align: center;
@@ -266,13 +266,14 @@ header h1
 }
 #join{
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);  
     background-color: #235789;
     border-radius: 10px;
     width: 100px;
     height: 25px;
+    margin: 10px;
     font-size: 20px;
     color: white;
 }
