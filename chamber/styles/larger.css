@@ -23,12 +23,12 @@
     #menu{
         display: none;
     }
-    .navigation{
+    nav .navigation{
         flex-direction: row;
         max-width: 100%;
         padding-left: 0;
     }
-    .navigation li{
+    nav .navigation li{
         display: block;
         list-style-type: none;
         flex-direction: row;
@@ -159,10 +159,11 @@ label{
     grid-row: 1/2;
     text-align: center;
  }
-.membership section{
-    display: flex;
-    flex-direction: column;
+ .membership section {
+    display: block;
+    /* flex-direction: column; */
     text-align: center;
+    height: 35%;
 }
 
 .membership{
@@ -170,8 +171,9 @@ label{
     grid-row: 2/3;
 
 }
-.membership ul{
+.membership ul {
     list-style: none;
+    padding: 0;
 }
 
 /* Directory */
