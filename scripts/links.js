@@ -17,9 +17,9 @@ async function Fetch()
     else{
         throw Error(await response.text())
     }
-} catch (error) {
+    } catch (error) {
     console.log(error)
-}
+    }
 }
 Fetch();
 function displayLinks(data)
@@ -39,7 +39,7 @@ function displayLinks(data)
             let title = link.title;
             let anchor = document.createElement('a');
             anchor.setAttribute('href', url);
-            anchor.textContent = `${title } || `;
+            anchor.textContent = `${title} || `;
             li.appendChild(anchor);
 
         })
@@ -102,10 +102,10 @@ async function apiFetch()
 
 function displayResults(data)
 {
-    currentTemp.innerHTML=`${data.main.temp}`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`
-    weatherIcon.setAttribute('src', iconsrc)
-    weatherIcon.setAttribute('alt', "Icon")
+    currentTemp.textContent=`${data.main.temp}`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', "Icon");
     let desc = data.weather[0].description;
     captionDesc.textContent = `${desc}`;
 }

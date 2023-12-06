@@ -10,7 +10,7 @@ body{
     
 }
 
-h1, h2, h3{
+h1, h2, h3, figcaption{
     font-family: 'Tenor Sans', sans-serif;
 }
 p{
@@ -114,6 +114,7 @@ header h1
     flex-direction: row;
     margin: 5px;
     align-items: center;
+    text-align: center;
 }
 .x{
     width: auto;

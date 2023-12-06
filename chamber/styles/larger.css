@@ -68,7 +68,7 @@
     /* display: flex; */
     color: white;
     width: 30%;
-}
+    }
 
 .sidebar section{
     display: flex;
@@ -79,11 +79,11 @@
     height: 100%;
     background-color: #235789;
     justify-items: center;
-}
+    }
 .sidebar section h3{
     padding: 5px;
     color: #fff;
-}
+    }
 
 /* Picture column */
 
@@ -108,7 +108,7 @@
         overflow: hidden;
         height:fit-content;
     }
-}
+
 .picture-column img{
     width: 100%;
     height: auto;
@@ -235,7 +235,11 @@ label{
     margin-top: 10%;
     
 }
-
+.banner{
+    text-align: center;
+    justify-content: center;
+}
+}
 
 /* .row1{
     display: flex;
