@@ -96,19 +96,17 @@ function displayThreeDayForecast(data)
         let figcaption = document.createElement('figcaption');
         figcaption.textContent = description;
 
-        let temperatureSpan = document.createElement('span');
-        temperatureSpan.textContent =`Temperature: ${temperature}`;
+        let temperatureP = document.createElement('p');
+        temperatureP.innerHTML =` ${temperature}`;
 
         let img = document.createElement('img');
         let icon = day.weather[0].icon;
         img.setAttribute('src', `https://openweathermap.org/img/w/${icon}.png`);
         img.setAttribute('alt', "Icon")
         weatherContainer.appendChild(img);
-        weatherContainer.appendChild(temperatureSpan);
+        weatherContainer.appendChild(temperatureP);
         weatherContainer.appendChild(figcaption);
         forecast.appendChild(weatherContainer)
-        weatherContainer.style.display = "flex";
-        weatherContainer.style.flexDirection = "row";
     })
         
 }
@@ -120,35 +118,68 @@ async function getMembers()
     const response = await fetch('data/members.json');
     const result = await response.json();
     console.log(result)
-    gridButton.addEventListener('click',() => displayBusinessesGrid(result.members));
+    // gridButton.addEventListener('click',() => displayBusinessesGrid(result.members));
+    displayBusinesses(result.members);
 }
 
 
+let spotlightBusinesses = [];
 
-
-function displayBusinessesGrid(members){
-    main.innerHTML = "";
+function displayBusinesses(members){
     const cards = document.createElement('article');
-    cards.classList.add('cards');
-    main.appendChild(cards);
+    cards.classList.add('business-cards');
     members.forEach(business => {
-        const card = document.createElement('section');
-        const businessName = document.createElement('h2');
-        const logo = document.createElement('img');
-        logo.setAttribute('src', business.img);
-        logo.setAttribute('alt', `${business.name}`);
-        logo.setAttribute('loading', "lazy");
-        logo.setAttribute('width', '340');
-        logo.setAttribute('height', '440');
-        // logo.setAttribute('src', prophet.imageurl);
-        businessName.textContent = `${business.name}`;
-        card.appendChild(businessName); 
-        card.appendChild(logo);
-        cards.appendChild(card);
-    }
+        let businessStatus = business.membership;
+        
+        if (businessStatus == 'gold' || businessStatus == 'silver')
+        {
+            spotlightBusinesses.push(business);
+        }
+    });
 
-    );
+    // Random generator
+    function getRandomBusiness(list)
+    {
+        const randomIndex = Math.floor(Math.random() * list.length)
+        return spotlightBusinesses[randomIndex];
+    }
+    const randomBusiness = getRandomBusiness(spotlightBusinesses);
+    const randomBusiness2 = getRandomBusiness(spotlightBusinesses);
+    if (randomBusiness2 == randomBusiness)
+    {
+        randomBusiness2 = getRandomBusiness(spotlightBusinesses)
+    }
+    let businessPlaceholder1 = document.createElement('div')
+    business1 = randomBusiness.name;
+    let businessName = document.createElement('h4');
+    let logo = document.createElement('img');
+    logo.setAttribute('src', randomBusiness.img);
+    logo.setAttribute('alt', `${randomBusiness.name}`);
+    logo.setAttribute('height', '250px');
+    logo.setAttribute('width', '250px');
+    logo.setAttribute('margin', 'auto')
+    businessName.textContent = business1;
+    businessPlaceholder1.appendChild(businessName);
+    businessPlaceholder1.appendChild(logo);
+    cards.appendChild(businessPlaceholder1)
+    document.querySelector('#business').appendChild(cards);
+
+    let businessPlaceholder2 = document.createElement('div')
+    business2 = randomBusiness2.name;
+    let businessName2 = document.createElement('h4');
+    let logo2 = document.createElement('img');
+    logo2.setAttribute('src', randomBusiness2.img);
+    logo2.setAttribute('alt', `${randomBusiness2.name}`);
+    logo2.setAttribute('height', '200px');
+    logo2.setAttribute('width', '250px');
+    logo2.setAttribute('margin', 'auto')
+    businessName2.textContent = business2;
+    businessPlaceholder2.appendChild(businessName2);
+    businessPlaceholder2.appendChild(logo2);
+    cards.appendChild(businessPlaceholder2)
+    document.querySelector('#business').appendChild(cards);
 }
 
 getMembers();
+
 

@@ -21,6 +21,7 @@ async function getMembers()
             const tr = document.createElement('tr');
             tr.textContent = `${member.name} || ${member.phone} || ${member.address.street}`
             table.appendChild(tr)
+            table.style.fontSize="20px";
         })
     })
 }
@@ -40,7 +41,7 @@ function displayBusinessesGrid(members){
         logo.setAttribute('src', business.img);
         logo.setAttribute('alt', `${business.name}`);
         logo.setAttribute('loading', "lazy");
-        logo.setAttribute('width', '340');
+        logo.setAttribute('width', '220');
         logo.setAttribute('height', '440');
         // logo.setAttribute('src', prophet.imageurl);
         businessName.textContent = `${business.name}`;

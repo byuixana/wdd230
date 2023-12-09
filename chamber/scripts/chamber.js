@@ -38,7 +38,7 @@ localStorage.setItem("numVisits-ls", numVisits);
 // Timestamp
 const submitBtn = document.querySelector("#submitJoinBtn");
 const timestamp = document.querySelector("#timestamp");
-let submissionDate = Date.Date.Now();
+let submissionDate = new Date().toString();
 
 submitBtn.addEventListener('onclick', submissionDate);
 

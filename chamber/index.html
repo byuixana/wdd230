@@ -27,15 +27,16 @@
         <div class="call-to-action">
             <div class="txt">
                 <h2>RIRIE: A PLACE WORTH INVESTING IN</h2>
-                <button id="join">Join</button> 
+                <button id="join">Join</button>
+                
             </div>
-            <img src="images/RirieViews.webp" alt="Ririe Photo" id="hero-img" loading="eager"> 
+            <img src="images/RirieViewsSmaller.webp" alt="Ririe Photo" id="hero-img" loading="eager"> 
         </div>   
  
         
     </header>
     <nav>
-        <button id="menu" name="button"></button>
+        <button id="menu" name="button" ></button>
         <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
@@ -44,21 +45,37 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <h3>Events</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et id aliquid quisquam assumenda eum commodi voluptates fuga officia voluptatibus iusto molestias pariatur quia blanditiis explicabo, atque minus ipsum recusandae nobis?</p>
-        </section>
-        <section>
-            <h3>Weather</h3>
-            <p>Temperature:<span id="temperature"></span></p>
-            <img id="weather-icon">
-            <figcaption></figcaption>
-            <span id="three-day-forecast"></span>       
-        </section>
-        <section>
-            <h3>Business Spotlight</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusamus saepe aperiam, esse nesciunt quos harum exercitationem nobis minus labore voluptates praesentium obcaecati eum pariatur, optio sequi asperiores quis odio.</p>
-        </section>
+        <div class="sections">
+            <section id="our-town">
+                <h3>Our Town</h3>
+                <img src="" alt="" id="old-and-new-Ririe">
+                <p>Welcome to Ririe, Idaho, a charming town nestled in the heart of the Gem State, where the breathtaking landscapes and warm community spirit. Known for its rich agricultural heritage and friendly atmosphere, Ririe offers a blend of small-town charm and outdoor adventure. Surrounded by the majestic Teton and Snake River mountain ranges, residents and visitors alike can enjoy year-round recreational activities, from hiking and fishing to winter sports in the nearby mountains. The town's vibrant community, comprised of local businesses and welcoming residents, fosters a sense of belonging and pride. Ririe's Chamber of Commerce is dedicated to promoting economic growth in this wonderful gem of a town.</p>
+            </section>
+            <section id="weather">
+                <h3>Weather</h3>
+                <!-- <figure class="weather-div">
+     -->
+                    <figure id="today-temp">
+                        <h4>Today's Weather</h4>
+                        <img id="weather-icon" src="placeholder.png" alt="weather">
+                        <p id="temperature"></p>
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="three-day-div">
+                        <h4>Three Day Forecast (Degrees fahrenheit)</h4>
+                        <div id="three-day-forecast"></div>
+                    </div>
+                     
+                <!-- </figure> -->
+                    
+            </section>
+            <section id="business">
+                <h3>Business Spotlights</h3>
+                <h4>Support local business by going to these local gems of the Gem State.</h4>
+            </section>
+        </div>
+        
     </main>
     <div class="banner">
         <button class="x">❌</button>
@@ -72,5 +89,6 @@
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
