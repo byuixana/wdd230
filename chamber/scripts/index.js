@@ -9,8 +9,6 @@ button.addEventListener('click', () => {
 let currentDate = new Date();
 let weekDay = currentDate.getDay();
 
-console.log(weekDay)
-
 if (weekDay <= 3 && weekDay != 0)
 {
     banner.style.display = "flex";
@@ -35,7 +33,6 @@ async function apiFetch(url)
     if(response.ok)
     {
         const data = await response.json();
-        console.log(data)
         displayResults(data)
     }
     else{
@@ -86,10 +83,8 @@ function displayThreeDayForecast(data)
     let forecast = document.querySelector("#three-day-forecast");
     
     
-    console.log(data.list.main);
     data.list.forEach(day =>{
         let weatherContainer = document.createElement("div");
-        console.log(day)
         let temperature = day.main.temp;
         let description = day.weather.description;
 
@@ -117,7 +112,6 @@ async function getMembers()
 {
     const response = await fetch('data/members.json');
     const result = await response.json();
-    console.log(result)
     // gridButton.addEventListener('click',() => displayBusinessesGrid(result.members));
     displayBusinesses(result.members);
 }

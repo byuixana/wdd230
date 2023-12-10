@@ -44,7 +44,6 @@ submitBtn.addEventListener('onclick', submissionDate);
 
 function setTime(){
     timestamp.innerHTML = submissionDate;
-    console.log(submissionDate);
 }
 
 

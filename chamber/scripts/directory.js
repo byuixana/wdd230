@@ -7,7 +7,6 @@ async function getMembers()
 {
     const response = await fetch('data/members.json');
     const result = await response.json();
-    console.log(result)
     gridButton.addEventListener('click',() => displayBusinessesGrid(result.members));
 
     listButton.addEventListener('click', () => {
