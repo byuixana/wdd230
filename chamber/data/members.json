@@ -37,7 +37,7 @@
                 },
             "phone": "(208) 538-6712",
             "urls": "http://ririechamber.com/business.php?id=77",
-            "img": "http://www.ririechamber.com/use_images/logos/whitelogowithlettering.jpg",
+            "img": "https://www.bing.com/images/search?view=detailV2&ccid=c%2fNcLXXO&id=0D293D76C070BDDC38176136B376B14C449ACB7B&thid=OIP.c_NcLXXOf2oQ6yeDgt_vogAAAA&mediaurl=https%3a%2f%2fis5-ssl.mzstatic.com%2fimage%2fthumb%2fPurple115%2fv4%2f37%2f0e%2f46%2f370e46f0-7451-b951-48ef-ebe89a2d1c8b%2fsource%2f256x256bb.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.73f35c2d75ce7f6a10eb278382dfefa2%3frik%3de8uaREyxdrM2YQ%26pid%3dImgRaw%26r%3d0&exph=256&expw=256&q=ririe+grain+and+feed&simid=608005917572600495&FORM=IRPRST&ck=9622611BF766166299B53AE6D4779CF4&selectedIndex=7&itb=0",
             "membership": "gold"
         },
         {
@@ -64,7 +64,7 @@
             "phone": "208-872-4534",
             "urls": "https://www.facebook.com/Lovebirdririe/",
             "img": "https://th.bing.com/th/id/OIP.XYTegU5mLJcUnBz9a7BO8gHaHa?rs=1&pid=ImgDetMain",
-            "membership": "silver"
+            "membership": "bronze"
         },
         {
             "name": "Gateway Service, Inc",
@@ -76,7 +76,7 @@
                 },
             "phone": "208-538-7771",
             "urls": "http://www.facebook.com/gatewaychevron/",
-            "img": "http://www.ririechamber.com/use_images/logos/chevron.jpg",
+            "img": "https://www.bing.com/images/search?view=detailV2&ccid=vnGsfTv%2b&id=CC1A008D33A003B99B7BD9D95F30FAFA6001CD77&thid=OIP.vnGsfTv-QbsVRyU0FxNEhgHaHa&mediaurl=https%3a%2f%2fd1yjjnpx0p53s8.cloudfront.net%2fstyles%2flogo-original-577x577%2fs3%2f042013%2fchevron_2.png%3fitok%3dKpvHvMSt&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.be71ac7d3bfe41bb1547253417134486%3frik%3dd80BYPr6MF%252fZ2Q%26pid%3dImgRaw%26r%3d0&exph=577&expw=577&q=chevron+logo&simid=608040801314216180&FORM=IRPRST&ck=3A1E6FC142AE038967A8702E9346CB08&selectedIndex=9&itb=0",
             "membership": "gold"
         },
         {
@@ -89,7 +89,7 @@
                 },
             "phone": "208-253-0011",
             "urls": "http://www.avercast.com/",
-            "img": "http://www.ririechamber.com/use_images/logos/2010-05-25-AvercastLogo.jpg",
+            "img": "https://th.bing.com/th/id/OIP.TXedhEYbEmNL-XfZwbOKlQAAAA?rs=1&pid=ImgDetMain",
             "membership": "gold"
         },
         {
@@ -102,8 +102,8 @@
                 },
             "phone": "208-589-5774",
             "urls": "http://www.idahomoldpro.com/",
-            "img": "http://www.ririechamber.com/use_images/logos/moldpro_logo.jpg",
-            "membership": "gold"
+            "img": "https://www.bing.com/images/search?view=detailV2&ccid=MfgcyAc3&id=65DB7E7760EA670C29A471EB8D350F4BC6D1B49E&thid=OIP.MfgcyAc3rskP6dI67mKL1wAAAA&mediaurl=https%3a%2f%2fwww.moldproinc.com%2fimages%2flogo.gif&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.31f81cc80737aec90fe9d23aee628bd7%3frik%3dnrTRxksPNY3rcQ%26pid%3dImgRaw%26r%3d0&exph=56&expw=279&q=ririe+idaho+moldpro&simid=608008344248598875&FORM=IRPRST&ck=E2454113F7E1ADFDA32F875C9F367E7D&selectedIndex=2&itb=0",
+            "membership": "bronze"
         }
     ]
 }
