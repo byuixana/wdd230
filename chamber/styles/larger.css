@@ -266,6 +266,10 @@ label{
     width: 100%;
 
 }
+
+#three-day-div div{
+    margin:10px;
+}
 }
 
 /* .row1{

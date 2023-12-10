@@ -94,11 +94,10 @@ section{
     margin: 2%;
     padding: 5px;
     justify-content: center;
-    height: 100%;
+    
     text-align: center;
-    height: 90%;
+    
     margin: 1%;
-    height: fit-content;
 }
 nav ul{
     list-style: none;
@@ -519,4 +518,8 @@ button{
 
 #our-town p{
     font-size: larger;
+}
+
+#three-day-div h4{
+    margin: 0;
 }

@@ -97,7 +97,7 @@ function displayThreeDayForecast(data)
         figcaption.textContent = description;
 
         let temperatureP = document.createElement('p');
-        temperatureP.innerHTML =` ${temperature}`;
+        temperatureP.textContent =`${temperature}`;
 
         let img = document.createElement('img');
         let icon = day.weather[0].icon;
@@ -134,21 +134,34 @@ function displayBusinesses(members){
         if (businessStatus == 'gold' || businessStatus == 'silver')
         {
             spotlightBusinesses.push(business);
-        }
+        } 
+        getRandomBusiness(spotlightBusinesses)
     });
-
+    // console.log(spotlightBusinesses)
+    
     // Random generator
-    function getRandomBusiness(list)
+function getRandomBusiness(spotlightBusinesses)
+    
     {
-        const randomIndex = Math.floor(Math.random() * list.length)
-        return spotlightBusinesses[randomIndex];
+        let selectedBusinesses = []
+        const randomIndex = Math.floor(Math.random() * spotlightBusinesses.length)
+        selectedBusinesses.push(spotlightBusinesses[randomIndex])
+        if (randomIndex > 1)
+        {
+            let randomIndex2 = randomIndex - 1
+            selectedBusinesses.push(spotlightBusinesses[randomIndex2])
+        } else{
+            let randomIndex2 = randomIndex + 1
+            selectedBusinesses.push(spotlightBusinesses[randomIndex2])
+        }
+        return selectedBusinesses
     }
-    const randomBusiness = getRandomBusiness(spotlightBusinesses);
-    const randomBusiness2 = getRandomBusiness(spotlightBusinesses);
-    if (randomBusiness2 == randomBusiness)
-    {
-        randomBusiness2 = getRandomBusiness(spotlightBusinesses)
-    }
+
+    let randomBusinesses = getRandomBusiness(spotlightBusinesses);
+    
+    let randomBusiness = randomBusinesses[0]
+    let randomBusiness2 = randomBusinesses[1]
+
     let businessPlaceholder1 = document.createElement('div')
     business1 = randomBusiness.name;
     let businessName = document.createElement('h4');
@@ -170,7 +183,7 @@ function displayBusinesses(members){
     let logo2 = document.createElement('img');
     logo2.setAttribute('src', randomBusiness2.img);
     logo2.setAttribute('alt', `${randomBusiness2.name}`);
-    logo2.setAttribute('height', '200px');
+    logo2.setAttribute('height', '250px');
     logo2.setAttribute('width', '250px');
     logo2.setAttribute('margin', 'auto')
     businessName2.textContent = business2;
