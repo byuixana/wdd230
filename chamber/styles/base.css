@@ -532,3 +532,8 @@ button{
 #three-day-div h4{
     margin: 0;
 }
+
+#our-town li{
+    font-size: 20px;
+    list-style: none;
+}
