@@ -262,6 +262,10 @@ label{
     grid-column: 1/2;
 }
 
+#weather h4{
+    font-size: 25px;
+}
+
 #business h3{
     width: 100%;
 
