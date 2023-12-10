@@ -520,6 +520,15 @@ button{
     font-size: larger;
 }
 
+#old-and-new-Ririe{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#our-town h3{
+    width: 100%;
+}
 #three-day-div h4{
     margin: 0;
 }
