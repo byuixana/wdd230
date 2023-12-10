@@ -91,12 +91,9 @@ section{
     display: flex;
     flex-wrap: wrap;
     background-color: #F5DEB3;
-    margin: 2%;
     padding: 5px;
-    justify-content: center;
-    
+    justify-content: center;   
     text-align: center;
-    
     margin: 1%;
 }
 nav ul{

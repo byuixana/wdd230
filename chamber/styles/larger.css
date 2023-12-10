@@ -248,6 +248,7 @@ label{
 
 #our-town{
     grid-column: 1/3;
+    width: 100%;
 }
 
 #business{
@@ -288,6 +289,9 @@ label{
 #our-town li{
     font-size: 20px;
     list-style: none;
+}
+#today-temp{
+    margin: 0;
 }
 }
 

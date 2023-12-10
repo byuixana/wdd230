@@ -164,7 +164,9 @@ function getRandomBusiness(spotlightBusinesses)
     logo.setAttribute('alt', `${randomBusiness.name}`);
     logo.setAttribute('height', '250px');
     logo.setAttribute('width', '250px');
-    logo.setAttribute('margin', 'auto')
+    logo.setAttribute('margin', 'auto');
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', '250', '250')
     businessName.textContent = business1;
     businessPlaceholder1.appendChild(businessName);
     businessPlaceholder1.appendChild(logo);
@@ -180,6 +182,8 @@ function getRandomBusiness(spotlightBusinesses)
     logo2.setAttribute('height', '250px');
     logo2.setAttribute('width', '250px');
     logo2.setAttribute('margin', 'auto')
+    logo2.setAttribute('loading', 'lazy');
+    logo2.setAttribute('width', '250', '250')
     businessName2.textContent = business2;
     businessPlaceholder2.appendChild(businessName2);
     businessPlaceholder2.appendChild(logo2);
